@@ -1,23 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página 1</title>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8' />
+    <title>Testes</title>
     <style>
+        * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
         .topo {
             display: flex;
             justify-content: center;
-        }
+    }
+        .menu {
+        background-color: #B2D6FF;    /* Medium blue */
+    }
+    .content {
+        height: 100vh;
+        background-color: #F5CF8E;    /* Yellow */
+        display: flex;
+        justify-content: center;
+    }
+    .aaa {
+        width: 75%;
+        height: 100%;
+        background-color: aqua;
+        display: flex;
+        justify-content: center;
+    }
     </style>
-</head>
-<body>
-    <h1 class="topo">Esta é a página 1 <br> Vá para a página 2</h1>
-    <ul>
-        <li><a href="/index.html">página 1</a></li>
-        <li><a href="/page2.html">página 2</a></li>
-        <li><a href="/page3.html">página 3</a></li>
-    </ul>
-    
-</body>
+  </head>
+  <body>
+    <div class='page'>
+      <div class='menu'><h1 class="topo">Esta é a página 1 <br> Vá para a página 2</h1>
+        <ul>
+            <li><a href="/index.html">Página 1</a></li>
+            <li><a href="/page2.html">Página 2</a></li>
+            <li><a href="/page3.html">Página 3</a></li>
+        </ul>
+      </div>
+      <div class='content'>
+        <div class="aaa">
+            <h1>Página 1</h1>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
