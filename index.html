@@ -6,47 +6,73 @@
     <style>
     * {
         margin: 0;
-        padding: 0;
         box-sizing: border-box;
     }
     .topo {
             display: flex;
             justify-content: center;
+            font-size: 50px;
+            flex-direction: column;
+            align-items: center;
     }
     .menu {
-        background-color: rgb(250, 190, 79);    /* Medium blue */
+        background-color: aliceblue;    /* Medium blue */
+        height: 110px;
+        align-content: center;
     }
     .content {
-        height: 100vh;
-        background-color: #bed7f3;    /* Yellow */
+        min-height: 1000vh;
+        background-color: aliceblue;    /* Yellow */
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
     }
     .aaa {
+        padding: 50px;
+        padding-top: 20px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
         width: 75%;
-        height: 100%;
-        background-color: #f8ecd9;
+        height: 1000vh;
+        background-color: white;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start;
+    }
+    .padrao {
+      font-size: 20px;
+    }
+    .subtitulo {
+      align-self: center;
+    }
+    p {
+      padding-top: 10px;
+      padding-bottom: 10px;
     }
     </style>
   </head>
   <body>
-    <div class='page'>
-      <div class='menu'>
-        <h1 class="topo">Esta é a página 1<br></h1>
-        <h1 class="topo"><a href="/page2.html">Vá para a página 2</a></h1>
-        <ul>
-            <li><a href="/index.html">Página 1</a></li>
-            <li><a href="/page2.html">Página 2</a></li>
-            <li><a href="/page3.html">Página 3</a></li>
-        </ul>
+    <div class="page">
+      <div class="menu">
+        <h1 class="topo">Melhores Jogos</h1>
       </div>
-      <div class='content'>
+      <div class="content">
+        <ul>
+          <li><strong>MENU</strong></li>
+          <li><a href="/index.html">Melhores Jogos</a></li>
+          <li><a href="/page2.html">Melhores RPGs</a></li>
+          <li><a href="/page3.html">Melhores E-sports</a></li>
+        </ul>
         <div class="aaa">
-            <h1>Página 1</h1>
-            <iframe src="https://store.steampowered.com/widget/292030/68476/" frameborder="0" width="646" height="190"></iframe>
+            <h2 class="subtitulo">Uma lista com os melhores jogos na minha opinião</h2>
+            <h3 class="padrao"><br><br>Grand Theft Auto V (GTA V)</h3>
+            <img width="560" height="315" src="images/image.png" alt="">
+            <p><br>Grand Theft Auto V (GTA V) é um jogo de ação-aventura desenvolvido pela Rockstar North e publicado<br>
+              pela Rockstar Games. Lançado em setembro de 2013, o jogo rapidamente se tornou um dos mais populares<br>
+              e bem-sucedidos da história dos videogames, tanto em termos de vendas quanto de crítica.
+            </p>
+            <iframe src="https://store.steampowered.com/widget/271590/" frameborder="0" width="646" height="190"></iframe>
+            
         </div>
       </div>
     </div>
