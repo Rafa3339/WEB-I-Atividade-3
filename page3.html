@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html lang='en'>
+<html lang='pt-BR'>
   <head>
-    <meta charset='UTF-8' />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Melhores E-sports</title>
     <style>
       * {
@@ -16,20 +17,18 @@
               align-items: center;
       }
       .menu {
-          background-color: aliceblue;    /* Medium blue */
+          background-color: aliceblue;
           height: 110px;
           align-content: center;
       }
       .content {
-          min-height: auto;
-          background-color: aliceblue;    /* Yellow */
+          background-color: aliceblue;
           display: flex;
       }
-      .aaa {
+      .centro {
           padding: 50px;
           padding-top: 20px;
           width: 75%;
-          height: 100%;
           background-color: white;
           display: flex;
           flex-direction: column;
@@ -37,6 +36,8 @@
           margin-left: 12px;
       }
       .padrao {
+        margin-top: 40px;
+        margin-bottom: 10px;
         font-size: 20px;
       }
       .subtitulo {
@@ -46,24 +47,63 @@
         padding-top: 10px;
         padding-bottom: 10px;
       }
-    </style>
+      </style>
   </head>
   <body>
-    <div class="page">
-      <div class="menu">
+      <header class="menu">
         <h1 class="topo">Melhores Jogos E-sports</h1>
-      </div>
-      <div class="content">
-        <ul>
-          <li><strong>MENU</strong></li>
-          <li><a href="/index.html">Melhores Jogos</a></li>
-          <li><a href="/page2.html">Melhores RPGs</a></li>
-          <li><a href="/page3.html">Melhores E-sports</a></li>
-        </ul>
-        <div class="aaa">
+      </header>
+      <main class="content">
+        <nav>
+          <ul>
+            <li><strong>MENU</strong></li>
+            <li><a href="/index.html">Melhores Jogos</a></li>
+            <li><a href="/page2.html">Melhores RPGs</a></li>
+            <li><a href="/page3.html">Melhores E-sports</a></li>
+          </ul>
+        </nav>
+        <div class="centro">
             <h2 class="subtitulo">Uma lista com os melhores jogos e-sports na minha opinião</h2>
+            <h3 class="padrao">EA Sports FC 24</h3>
+            <img width="560" height="315" src="images/easportsfc.png" alt="">
+            <p>EA Sports FC 24 é o primeiro título da franquia de jogos de futebol a ser lançado pela EA Sports após<br>
+              o fim da parceria de longa data com a FIFA. Lançado em 2023, este jogo representa uma nova era para a popular<br>
+              série de simuladores de futebol, que anteriormente era conhecida como "FIFA". Apesar da mudança de nome, o jogo<br>
+              mantém muitos dos elementos que fizeram da franquia um sucesso, mas também introduz novas características e melhorias.
+            </p>
+            <iframe src="https://store.steampowered.com/widget/2195250/785934/" frameborder="0" width="646" height="190"></iframe>            
+
+            <h3 class="padrao">Counter-Strike 2 (CS 2)</h3>
+            <img width="560" height="315" src="images/cs2.png" alt="">
+            <p>Counter-Strike 2 é a sequência do famoso jogo de tiro em primeira pessoa "Counter-Strike". Desenvolvido<br>
+               pela Valve Corporation, foi lançado em agosto de 2023. O jogo traz melhorias significativas em relação ao seu<br>
+               antecessor, com gráficos atualizados e uma nova engine, a Source 2.
+            </p>
+            <iframe src="https://store.steampowered.com/widget/730/" frameborder="0" width="646" height="190"></iframe>
+            
+            <h3 class="padrao">Valorant</h3>
+            <img width="560" height="315" src="images/valorant.png" alt="">
+            <p>Valorant é um jogo de tiro em primeira pessoa desenvolvido pela Riot Games e lançado em junho de 2020.<br>
+              O jogo combina elementos de tiro tático com habilidades especiais de personagens, criando uma mistura única de<br>
+              estratégia e ação.
+            </p>
+            <ul><li><a href="https://playvalorant.com/pt-br/">Site para o Valorant</a></li></ul>
+            
+            <h3 class="padrao">F1 24</h3>
+            <img width="560" height="315" src="images/f1.png" alt="">
+            <p>F1 2024 é a mais recente adição à popular série de jogos de simulação de Fórmula 1 desenvolvida pela<br>
+              Codemasters e publicada pela Electronic Arts. O jogo foi lançado em julho de 2024.
+            </p>
+            <iframe src="https://store.steampowered.com/widget/2488620/895660/" frameborder="0" width="646" height="190"></iframe>            
+            
+            <h3 class="padrao">Rocket League</h3>
+            <img width="560" height="315" src="images/rocket.png" alt="">
+            <p>Rocket League é um jogo desenvolvido pela Psyonix que combina futebol com veículos acrobáticos.<br>
+              Lançado em julho de 2015, o jogo se tornou muito popular devido à sua jogabilidade única e ao seu estilo de<br>
+              competição acessível e envolvente. 
+            </p>
+            <ul><li><a href="https://store.epicgames.com/pt-BR/p/rocket-league">Site para o Rocket League</a></li></ul>
         </div>
-      </div>
-    </div>
+      </main>
   </body>
 </html>
